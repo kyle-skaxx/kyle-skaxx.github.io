@@ -1,11 +1,12 @@
 .heading { font-size: 100px;
-
-
+            background-color: rgb (30, 30, 30,);
+            padding: 20px, 30px, 20px, 30px;
+            opacity: 0.5;
 }   
 
 
 
 .main-content    { font-family: 'Montserrat Alternates', sans-serif;
-                background-color: red ;
+                ;
 
 }
