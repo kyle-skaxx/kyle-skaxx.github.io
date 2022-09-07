@@ -1,4 +1,11 @@
-.main-content    { font-family: 'Montserrat Alternates', sans-serif;;
-                background-color: red 
+.heading { font-size: 100px;
+
+
+}   
+
+
+
+.main-content    { font-family: 'Montserrat Alternates', sans-serif;
+                background-color: red ;
 
 }
