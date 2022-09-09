@@ -1,5 +1,6 @@
 html, .main-content {max-width: 100%;
                     overflow-x: hidden;
+                    background-color: #12130f;
 }
 h2, h3     {
     text-align: center;
@@ -26,8 +27,6 @@ h2, h3     {
                 left:20px ;
 }
  
-html {background-color: #12130f;
-}
 
 .main-content    { font-family: 'Montserrat Alternates', sans-serif;
                     color: #8fcb9b;
