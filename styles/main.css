@@ -1,10 +1,13 @@
-
+html, .main-content {max-width: 100%;
+                    overflow-x: hidden;
+}
 h2   {
     text-align: center;
 }
 #header {   height: auto;
             background-color: #516f55;
             border:none;   
+            width: 100%;
             
             position: static; 
 }   
@@ -28,6 +31,7 @@ html {background-color: #12130f;
 
 .main-content    { font-family: 'Montserrat Alternates', sans-serif;
                     color: #8fcb9b;
+                    
 }
 h1 {
     
@@ -47,3 +51,12 @@ p { text-align: center;
     display: inline-block;
     text-align: left
 }
+
+@media screen and (min-width:500px) 
+{main-content {color: pink;}}
+
+@media (min-width: 768px)
+{main-content {color:#8fcb9b}}
+
+@media (min-width: 1200px)
+{main-content {color:#a3bcaf}}
