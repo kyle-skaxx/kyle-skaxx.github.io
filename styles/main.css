@@ -1,7 +1,7 @@
 html, .main-content {max-width: 100%;
                     overflow-x: hidden;
 }
-h2   {
+h2, h3     {
     text-align: center;
 }
 #header {   height: auto;
