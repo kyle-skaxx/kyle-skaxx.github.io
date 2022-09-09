@@ -1,12 +1,49 @@
-.heading { font-size: 40px;
-            background-color: rgb (30, 30, 30);
-           
-            opacity: 0.5;
+
+h2   {
+    text-align: center;
+}
+#header {   height: auto;
+            background-color: #516f55;
+            border:none;   
+            
+            position: static; 
 }   
 
-
+#discord-logo { box-sizing: border;   
+                padding-right: 1300px;  
+                position:relative; 
+                padding:20 20 20 20; 
+                left:20px;
+                top: 70px;
+}
+#twitter-logo { box-sizing: border-box;
+                padding-right: 1300px;
+                position: relative ;
+                padding:10 10 10 10;
+                left:20px ;
+}
+ 
+html {background-color: #12130f;
+}
 
 .main-content    { font-family: 'Montserrat Alternates', sans-serif;
-                ;
-
+                    color: #8fcb9b;
+}
+h1 {
+    
+    position: relative;
+    left: 650px;
+    bottom: 30px;
+}
+p { text-align: center;
+}
+.giflink {
+    color:#a3bcaf;
+    text-decoration: none;
+}
+.list 
+{text-align: center;}
+.navlist {
+    display: inline-block;
+    text-align: left
 }
