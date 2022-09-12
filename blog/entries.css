@@ -20,6 +20,7 @@ html {background-color: #12130f;
     
 }
 p { text-align: center;
+    line-height: 40px;
 }
 .giflink {
 color:#a3bcaf;
@@ -29,11 +30,12 @@ text-decoration: none;
 {text-align: center;}
 .navlist {
 display: inline-block;
-text-align: left
+text-align: left;
+line-height: 40px;
 }
 
 @media screen and (min-width:500px) 
-{main-content {color: pink;}}
+{main-content {background-color: pink;}}
 
 @media (min-width: 768px)
 {main-content {color:#8fcb9b}}

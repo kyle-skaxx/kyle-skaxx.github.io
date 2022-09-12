@@ -2,6 +2,8 @@ html, .main-content {max-width: 100%;
                     overflow-x: hidden;
                     background-color: #12130f;
 }
+.header-text { text-align: center; 
+                left:0%;}
 h2, h3     {
     text-align: center;
 }
@@ -33,12 +35,12 @@ h2, h3     {
                     
 }
 h1 {
-    
     position: relative;
     left: 650px;
     bottom: 30px;
 }
 p { text-align: center;
+    line-height: 40px;
 }
 .giflink {
     color:#a3bcaf;
@@ -48,8 +50,17 @@ p { text-align: center;
 {text-align: center;}
 .navlist {
     display: inline-block;
-    text-align: left
+    text-align: left;
+    line-height:30px;
 }
+#screenshot1 
+    { border-radius: 10px;
+    max-width: 50%;
+    height: auto;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    }
 
 @media screen and (min-width:500px) 
 {main-content {color: pink;}}
