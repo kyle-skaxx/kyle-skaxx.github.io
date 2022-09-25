@@ -173,6 +173,9 @@ img {
     align-items: center;
     gap: 30px;
     border-radius: 5%;
+    justify-content: center;
+    transform: translateX(0%);
+
 }
 .paragraphs {
     margin: 0 auto;
