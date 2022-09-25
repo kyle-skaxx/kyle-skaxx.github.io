@@ -4,7 +4,8 @@ html, .main-content {max-width: 100%;
 }
 .header-text { text-align: center; 
                 left:0%;}
-h2, h3     {
+h2, h3, h4     {
+
     text-align: center;
 }
 
@@ -52,7 +53,7 @@ h2, h3     {
     cursor: pointer;
     transition-duration: 0.4s;
     position: absolute;
-    left: 42.5%;
+    left: 43.5%;
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -120,7 +121,7 @@ p { text-align: center;
     line-height: 40px;
 }
 .giflink {
-    color:#a3bcaf;
+    color:#f6ae2d;
     text-decoration: none;
 }
 .list 
@@ -139,14 +140,14 @@ p { text-align: center;
     margin-right:auto;
     }
 
-@media screen and (min-width:500px) 
-{main-content {color: pink;}}
+@media screen and (max-width:500px) 
+{.main-content {background-color: pink;}}
 
-@media (min-width: 768px)
-{main-content {color:#8fcb9b}}
+@media (max-width: 768px)
+{.main-content {color:#8fcb9b}}
 
-@media (min-width: 1200px)
-{main-content {color:#a3bcaf}}
+@media (max-width: 1200px)
+{.main-content {color:#a3bcaf}}
 
 @media screen and (max-height:450px) {
     .sidenav {padding: top 15px;}
@@ -164,4 +165,26 @@ img {
     display: table;
     margin: 0 auto;
     width: 700px;
+}
+#resources {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5%;
+}
+.paragraphs {
+    margin: 0 auto;
+    max-width: 80ch;
+    line-height: 3.5;
+}
+#radarchart {
+    padding: 20, 20, 20, 20;
+    color:#8fcb9b;
+    background-color: #07393c;
+    border-radius: 5%;
+    width: 750px;
+    height: 900;
+    border: 4px solid #57c4e5;
 }
