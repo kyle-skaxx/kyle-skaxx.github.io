@@ -8,6 +8,10 @@ h2, h3, h4     {
 
     text-align: center;
 }
+sup {
+    font-size: 7px;
+
+}
 
 .giflink:hover {
    color: #57c4e5;
